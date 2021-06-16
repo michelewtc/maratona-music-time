@@ -1,0 +1,65 @@
+.category {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.category__title {
+  font-weight: bold;
+  margin-top: 16px;
+}
+
+.category-list {
+  margin-bottom: 10px;
+}
+
+.category-list__item {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+
+  width: 85%;
+  margin: 0 auto;
+
+  text-align: center;
+
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.category-list__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 60px;
+  height: 60px;
+  border-radius: 60px;
+}
+
+img {
+  width: 24px;
+  height: 24px;
+}
+
+.icon__podcasts {
+  background-color: var(--yellow);
+}
+
+.icon__rock {
+  background-color: var(--red);
+}
+
+.icon__pagode {
+  background-color: var(--green);
+}
+
+.icon__vertodas {
+  background-color: var(--dark-blue);
+}
+
+.category-list__text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  margin-top: 5px;
+}

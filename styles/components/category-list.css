@@ -8,9 +8,9 @@
   margin-top: 16px;
 }
 
-.category-list {
+/* .category-list {
   margin-bottom: 10px;
-}
+} */
 
 .category-list__item {
   display: flex;
@@ -41,19 +41,19 @@ img {
   height: 24px;
 }
 
-.icon__podcasts {
+.category-list__icon--podcasts {
   background-color: var(--yellow);
 }
 
-.icon__rock {
+.category-list__icon--rock {
   background-color: var(--red);
 }
 
-.icon__pagode {
+.category-list__icon--pagode {
   background-color: var(--green);
 }
 
-.icon__vertodas {
+.category-list__icon--vertodas {
   background-color: var(--dark-blue);
 }
 

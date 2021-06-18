@@ -1,0 +1,46 @@
+.cover__background {
+  background: linear-gradient(180deg, #f2f2f2 0%, rgba(242, 242, 242, 0) 100%);
+  height: 267px;
+}
+
+.cover {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.cover__album {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cover__img {
+  width: 147px;
+  height: 140px;
+  border-radius: 4px;
+
+  margin-top: 37px;
+  margin-bottom: 16px;
+}
+
+.cover__button {
+  background-color: #4285f4;
+  width: 51px;
+  height: 51px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.cover__button-play {
+  margin-left: 5px;
+}
+
+.cover__music {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

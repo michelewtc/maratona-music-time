@@ -1,0 +1,40 @@
+.player__background {
+  background-color: #1f1f1f;
+
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 9px;
+
+  margin-top: 95px;
+  margin-bottom: 13px;
+}
+
+.player {
+  height: 76px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.player__music-name {
+  margin-left: 22px;
+}
+
+.player__icon {
+  margin-right: 16px;
+}
+
+.player__music-name__title {
+  color: rgba(255, 255, 255, 1);
+  font-weight: 700;
+  font-size: 14px;
+
+  margin-bottom: 6px;
+}
+
+.player__music-name__subtitle {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 500;
+  font-size: 14px;
+}
